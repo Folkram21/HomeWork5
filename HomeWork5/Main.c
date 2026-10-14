@@ -1,17 +1,17 @@
-#include <stdio.h>
+п»ї#include <stdio.h>
 #include <math.h>
 
 void main() {
-	// параметры
+	// РїР°СЂР°РјРµС‚СЂС‹
 	double x = -15.246;
 	double y = 4.642e-2;
 	double z = 20.001e2;
 
 	double alpha;
 
-	// решение
+	// СЂРµС€РµРЅРёРµ
 	alpha = log(pow(y, -sqrt(-x))) * (x - (y / 2.0)) + pow(sin(atan(z)), 2);
 
-	// вывод результат
-	printf("Результат - %.3f\n", alpha);
+	// РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚
+	printf("Р РµР·СѓР»СЊС‚Р°С‚ - %.3f\n", alpha);
 }
