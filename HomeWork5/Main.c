@@ -8,4 +8,10 @@ void main() {
 	double z = 20.001e2;
 
 	double alpha;
+
+	// решение
+	alpha = log(pow(y, -sqrt(-x))) * (x - (y / 2.0)) + pow(sin(atan(z)), 2);
+
+	// вывод результат
+	printf("Результат - %.3f\n", alpha);
 }
